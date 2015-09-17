@@ -68,6 +68,8 @@ RSpec.describe "Configuration" do
 
     include_examples "adds setting", :use_instantiated_fixtures
 
+    include_examples "adds setting", :pre_loaded_fixtures
+
     include_examples "adds setting", :global_fixtures
 
     include_examples "adds setting", :fixture_path

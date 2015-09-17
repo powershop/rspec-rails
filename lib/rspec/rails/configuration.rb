@@ -47,6 +47,7 @@ module RSpec
       # fixture support
       config.add_setting :use_transactional_fixtures, :alias_with => :use_transactional_examples
       config.add_setting :use_instantiated_fixtures
+      config.add_setting :pre_loaded_fixtures
       config.add_setting :global_fixtures
       config.add_setting :fixture_path
       config.include RSpec::Rails::FixtureSupport, :use_fixtures
